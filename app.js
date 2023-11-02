@@ -1,7 +1,7 @@
 document.querySelector('button').addEventListener('click', function () {
-    var fileInput = document.getElementById('file-input');
-    var file = fileInput.files[0];
-    var formData = new FormData();
+    let fileInput = document.getElementById('file-input');
+    let file = fileInput.files[0];
+    let formData = new FormData();
     formData.append('file', file);
 
     fetch('http://127.0.0.1:8000/predict', {
@@ -16,11 +16,14 @@ document.querySelector('button').addEventListener('click', function () {
         if(pred.innerHTML==="undefined"){
             pred.innerHTML="Submit an image"
             pred.style.fontSize="30px"
+
         }
         else{
             console.log(data.prediction)
             pred.innerHTML=data.prediction
             pred.style.fontSize="50px"
+            img=document.querySelector('.img4')
+            img.scr=fileInput.value
         }
         // console.log(data)
     })
