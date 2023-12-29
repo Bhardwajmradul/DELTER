@@ -24,7 +24,7 @@ This project has three parts:
    I have trained the data for 10 epochs after which overfitting was observed.
    The highest accuracy of the model is 90%.
    After training the model with the dataset, the model was ready for making inference so I converted it into a byte file using model.save .
-It is a small project but I have some future plans to work on which would add some more functionality to the project
+# It is a small project but I have some future plans to work on which would add some more functionality to the project
 Future Scope:-
 1) Give the roughness of the terrain form the submitted image:
    In this a linear regression model is required to be trained on some data to give the measure of roughness.
