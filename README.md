@@ -13,17 +13,17 @@ This project has three parts:
    
    Functioning:-
    
-   It takes the image submitted through the frontend to the the DELTER model and then DELTER makes it's prediction.
-   This prediction is then send to the server from where the frontend can take the prediction by using a simple get request.
-   It uses a byte file created by DELTER to get the prediction of the input image.
+      It takes the image submitted through the frontend to the the DELTER model and then DELTER makes it's prediction.
+      This prediction is then send to the server from where the frontend can take the prediction by using a simple get request.
+      It uses a byte file created by DELTER to get the prediction of the input image.
    
    About the Server:-
    
    This backend server is made using python and fastapi framework.
-   It is made functional after a lot of experiments so it may a have a lot of messy code.
+   It has been made functional after a lot of experiments so it may a have a lot of messy code.
    The code for this server is in try.py
    
-3) Backend deep learning model:
+4) Backend deep learning model:
    
    Data:-
    
@@ -47,11 +47,13 @@ It is a small project but I have some future plans to work on, which would add s
 Future Scope:-
 
 1) Give the roughness of the terrain form the submitted image:
+
+   I know a dataset on kaggle which has been made by moving vechiles on different terrain and these vechile had sensors to measure disturbance in the position of the vechile on z-axis.
+   These measure of disturbances on the z-axis can be used to calculate the roughness of the terrain.
+   To give the roughness of the terrain submitted by the user, a linear regression model can be use which would be trained on the roughness data gathered, and would output the roughness.
+   We can also give smoothness of the terrain as roughness and smoothness are complementary features of a terrain.
    
-   In this a linear regression model is required to be trained on some data to give the measure of roughness.
-   I know a dataset on kaggle which has been made by moving vechiles on different terrain and these vechile had sensors to measure the roughness of the terrain.
-   
-2) Using the open source LLaMA model:
+1) Using the open source LLaMA model:
    
    Meta's LLaMA model can be used to get the descriptive analysis of the submitted terrain.
    
