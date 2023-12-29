@@ -32,7 +32,7 @@ This project has three parts:
    Model:-
    
    For the training of data, I have used transfer learning. I have made use of a pretrained model called ResNet 50.
-   On top of ResNet 50 I have applied some layers, for adding relu function, a layer for regularization, a layer for different classes of dataset.
+   On top of ResNet 50 I have applied some layers, for adding relu function, a layer for regularization, a layer for categorizing different classes of dataset.
    I have trained the data for 10 epochs after which overfitting was observed.
    The highest accuracy of the model is 90%.
    After training the model with the dataset, the model was ready for making inference so I converted it into a byte file using model.save .
