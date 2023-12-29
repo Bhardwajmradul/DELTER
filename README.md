@@ -50,7 +50,7 @@ Future Scope:-
 
    I know a dataset on kaggle which has been made by moving vechiles on different terrain and these vechile had sensors to measure disturbance in the position of the vechile on z-axis.
    These measure of disturbances on the z-axis can be used to calculate the roughness of the terrain.
-   To give the roughness of the terrain submitted by the user, a linear regression model can be use which would be trained on the roughness data gathered, and would output the roughness.
+   To give the roughness of the terrain submitted by the user, a linear regression model, trained on the data gathered for calculating the roughness of terrain, can be used.
    We can also give smoothness of the terrain as roughness and smoothness are complementary features of a terrain.
    
 1) Using the open source LLaMA model:
