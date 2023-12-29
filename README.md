@@ -27,7 +27,7 @@ This project has three parts:
 
 
    
-# It is a small project but I have some future plans to work on which would add some more functionality to the project
+It is a small project but I have some future plans to work on which would add some more functionality to the project
 Future Scope:-
 1) Give the roughness of the terrain form the submitted image:
    In this a linear regression model is required to be trained on some data to give the measure of roughness.
