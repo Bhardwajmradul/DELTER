@@ -1,6 +1,8 @@
 # DELTER
 DELTER refers to Deep Learning Terrain Recognition 
+
 It currently has 4 classes- Rocky, Sandy, Marshy, Grass
+
 This project has three parts:
 
 1) The frontend
