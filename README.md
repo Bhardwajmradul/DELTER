@@ -7,7 +7,7 @@ This project has three parts:
    
    It has been designed by just using simple html,css and javascript.
    
-3) Backend Server
+2) Backend Server
    
    Functioning:-
    
@@ -21,7 +21,7 @@ This project has three parts:
    It is made functional after a lot of experiments so it may a have a lot of messy code.
    The code for this file is in try.py
    
-4) Backend deep learning model:
+3) Backend deep learning model:
    
    Data:-
    
